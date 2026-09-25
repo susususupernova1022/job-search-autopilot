@@ -1,0 +1,15 @@
+# Personal data — never commit
+data/
+outputs/
+autopilot_config.json
+scanner/scan_profile.js
+prompts/generated/
+tools/upload_payload/
+
+# OS / tooling
+.DS_Store
+__pycache__/
+*.pyc
+node_modules/
+~$*.xlsx
+~$*.docx

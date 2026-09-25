@@ -1,0 +1,8 @@
+{
+  "tracker_file": "data/Application_Tracker.xlsx",
+  "question_bank_file": "data/Question_Bank.xlsx",
+  "bullet_db_file": "data/Bullet_Database.xlsx",
+  "target_companies_file": "data/Target_Companies.xlsx",
+  "lanes": ["Finance/FP&A", "Strategy&Ops", "PM", "PMM/Marketing"],
+  "in_progress_stale_days": 3
+}

@@ -1,0 +1,81 @@
+Company,ATS,Board slug,Workday tenant,Workday host,Workday site,Platform cost,Tier,Lane fit,Sponsorship read,Status,Notes
+Airwallex,Ashby,airwallex,,,,cheap,,,,verify,Posted cap: 3 applications per 90 days.
+Confluent,Ashby,confluent,,,,cheap,,,,verify,
+Deel,Ashby,deel,,,,cheap,,,,verify,"Board has returned 0 public jobs at times — a real 0, not a failure."
+Marqeta,Ashby,marqeta-inc,,,,cheap,,,,verify,Moved from Greenhouse to Ashby in 2026; old Greenhouse slug 404s.
+Middesk,Ashby,middesk,,,,cheap,,,,verify,
+Miro,Ashby,miro,,,,cheap,,,,verify,
+Modern Treasury,Ashby,moderntreasury,,,,cheap,,,,verify,
+Notion,Ashby,notion,,,,cheap,,,,verify,
+OpenAI,Ashby,openai,,,,cheap,,,,verify,
+Persona,Ashby,persona,,,,cheap,,,,verify,Posted cap: 2 applications per 60 days; same role 180 days.
+Plaid,Ashby,plaid,,,,cheap,,,,verify,Posted cap: 3 applications per 60–90 days (check careers page).
+Ramp,Ashby,ramp,,,,cheap,,,,verify,"Cap: 1 application per 100 days, enforced only at final Submit."
+Sardine,Ashby,sardine,,,,cheap,,,,verify,
+Sentry,Ashby,sentry,,,,cheap,,,,verify,
+Snowflake,Ashby,snowflake,,,,cheap,,,,verify,
+Stytch,Ashby,stytch,,,,cheap,,,,verify,
+Unit,Ashby,unit,,,,cheap,,,,verify,
+Vanta,Ashby,vanta,,,,cheap,,,,verify,JD boilerplate has said no sponsorship — check each req.
+Zip,Ashby,zip,,,,cheap,,,,verify,Two different companies are called Zip — check the right legal entity (ZipHQ) for sponsorship research.
+Experian,Attrax (custom),,,,,expensive,,,,verify,Server-rendered list: jobs.experian.com/jobs?options=1050&page=N (US facet). Fetch same-origin + DOMParser.
+Whatnot,Custom page → Ashby apply,,,,,cheap,,,,verify,"List at whatnot.com/careers/discover (server-rendered, dedupe by UUID); Apply goes to jobs.ashbyhq.com/whatnot."
+Adyen,Greenhouse,adyen,,,,cheap,,,,verify,
+Affirm,Greenhouse,affirm,,,,cheap,,,,verify,
+Airbnb,Greenhouse,airbnb,,,,cheap,,,,verify,
+Airtable,Greenhouse,airtable,,,,cheap,,,,verify,
+Amplitude,Greenhouse,amplitude,,,,cheap,,,,verify,
+Anthropic,Greenhouse,anthropic,,,,cheap,,,,verify,
+Asana,Greenhouse,asana,,,,cheap,,,,verify,
+BILL,Greenhouse,billcom,,,,cheap,,,,verify,Job links redirect to bill.com; apply via the Greenhouse embed URL.
+Block,Greenhouse,block,,,,cheap,,,,verify,Posted cap: max 9 active applications per 60 days; same role 90 days.
+Braze,Greenhouse,braze,,,,cheap,,,,verify,
+Brex,Greenhouse,brex,,,,cheap,,,,verify,Form is an iframe on brex.com; apply via the embed URL.
+Chime,Greenhouse,chime,,,,cheap,,,,verify,
+Coinbase,Greenhouse,coinbase,,,,cheap,,,,verify,Posted cap: max 3 applications per 6 months.
+Databricks,Greenhouse,databricks,,,,cheap,,,,verify,
+Datadog,Greenhouse,datadog,,,,cheap,,,,verify,
+Discord,Greenhouse,discord,,,,cheap,,,,verify,
+DoorDash,Greenhouse,doordashusa,,,,cheap,,,,verify,Slug differs from name.
+Dropbox,Greenhouse,dropbox,,,,cheap,,,,verify,
+Extend,Greenhouse,extend,,,,cheap,,,,verify,
+Faire,Greenhouse,faire,,,,cheap,,,,verify,
+Figma,Greenhouse,figma,,,,cheap,,,,verify,
+Gusto,Greenhouse,gusto,,,,cheap,,,,verify,
+Highnote,Greenhouse,highnote,,,,cheap,,,,verify,
+Instacart,Greenhouse,instacart,,,,cheap,,,,verify,
+Intercom,Greenhouse,intercom,,,,cheap,,,,verify,
+Klaviyo,Greenhouse,klaviyo,,,,cheap,,,,verify,
+LaunchDarkly,Greenhouse,launchdarkly,,,,cheap,,,,verify,
+Lithic,Greenhouse,lithic,,,,cheap,,,,verify,
+Lyft,Greenhouse,lyft,,,,cheap,,,,verify,
+Melio,Greenhouse,melio,,,,cheap,,,,verify,
+Mercury,Greenhouse,mercury,,,,cheap,,,,verify,
+Mixpanel,Greenhouse,mixpanel,,,,cheap,,,,verify,
+Navan,Greenhouse,tripactions,,,,cheap,,,,verify,Slug is the company's OLD name. Careers links with gh_jid= reveal Greenhouse behind a custom page.
+Okta,Greenhouse,okta,,,,cheap,,,,verify,updated_at is refreshed daily on every job — scanner must use first_published (it does).
+Payoneer,Greenhouse,payoneer,,,,cheap,,,,verify,
+Pinterest,Greenhouse,pinterest,,,,cheap,,,,verify,
+Reddit,Greenhouse,reddit,,,,cheap,,,,verify,
+Robinhood,Greenhouse,robinhood,,,,cheap,,,,verify,
+Samsara,Greenhouse,samsara,,,,cheap,,,,verify,
+Sigma Computing,Greenhouse,sigmacomputing,,,,cheap,,,,verify,
+Stripe,Greenhouse,stripe,,,,cheap,,,,verify,Form is an iframe on stripe.com; apply via the Greenhouse embed URL. Country pickers want 'US'.
+Toast,Greenhouse,toast,,,,cheap,,,,verify,
+Twilio,Greenhouse,twilio,,,,cheap,,,,verify,
+Vercel,Greenhouse,vercel,,,,cheap,,,,verify,
+Verkada,Greenhouse,verkada,,,,cheap,,,,verify,
+Webflow,Greenhouse,webflow,,,,cheap,,,,verify,
+Finix,Lever,finix,,,,cheap,,,,verify,Lever createdAt is epoch ms (scanner handles it).
+Nium,Lever,nium,,,,cheap,,,,verify,
+Outreach,Lever,outreach,,,,cheap,,,,verify,
+ServiceNow,SmartRecruiters,ServiceNow,,,,medium,,,,verify,Form is in shadow DOM — see playbooks/smartrecruiters.md.
+Adobe,Workday,,adobe,adobe.wd5.myworkdayjobs.com,external_experienced,expensive,,,,verify,
+Expedia Group,Workday,,expedia,expedia.wd108.myworkdayjobs.com,search,expensive,,,,verify,Cap: 5 applications per 45 days. Reqs show an application deadline.
+LendingClub (Happen Bank),Workday,,lendingclub,lendingclub.wd1.myworkdayjobs.com,External,expensive,,,,verify,Watch for renamed reposts of the same req.
+Mastercard,Workday,,mastercard,mastercard.wd1.myworkdayjobs.com,CorporateCareers,expensive,,,,verify,
+PayPal,Workday,,paypal,paypal.wd1.myworkdayjobs.com,jobs,expensive,,,,verify,Often posts many reqs at once; pace yourself (same-company throttle).
+Postman,Workday,,postman,postman.wd108.myworkdayjobs.com,careers,expensive,,,,verify,Moved from Greenhouse to Workday in 2026.
+Salesforce,Workday,,salesforce,salesforce.wd12.myworkdayjobs.com,External_Career_Site,expensive,,,,verify,JD asks candidates to apply to max 3 roles per 12 months.
+Visa,Workday,,visa,visa.wd5.myworkdayjobs.com,Visa,expensive,,,,verify,
+Workday,Workday,,workday,workday.wd5.myworkdayjobs.com,Workday,expensive,,,,verify,
