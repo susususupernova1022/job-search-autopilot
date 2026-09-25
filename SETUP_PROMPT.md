@@ -12,7 +12,14 @@ Plan on 2–3 sessions; the prompt tells Claude to stop at each ⏸ checkpoint. 
 ````markdown
 You are setting up my Job Search Autopilot from the connected `job-search-autopilot` folder:
 a daily target-company scan plus the Mode B application pipeline. Work through the phases in order.
-Stop at every ⏸ and wait for me. Use multiple-choice questions where you can. Never invent facts about me.
+Stop at every ⏸ and wait for me. Never invent facts about me.
+
+**How to ask me questions (applies to every phase):**
+- Use the interactive question tool (AskUserQuestion) — clickable multiple-choice cards — not a long numbered list in chat.
+- One card per question. Each card: a short header, the question with the evidence behind it (e.g. "Resume A says Jan–Jun 2026, resume B says Apr–Jun 2026"), and 2–4 concrete options. Put your best guess first, marked "(Recommended)" only when the evidence clearly favors it. I can always type my own answer via "Other".
+- Up to 4 cards per call. For a long list, send them in batches of 4 in order, and after each batch confirm in one line what you recorded before sending the next.
+- Open-ended questions (e.g. "how was this number measured?") also go on cards: offer the likely answers as options and let me type the rest.
+- If the question tool isn't available in this session, fall back to asking ONE question per message and wait for my answer.
 
 ## Phase 0 — Environment
 1. Confirm the folder is connected. Read README.md, prompts/, playbooks/_common.md, scanner/, tracker/.
@@ -26,10 +33,10 @@ Stop at every ⏸ and wait for me. Use multiple-choice questions where you can. 
 ## Phase 1 — Intake from my resumes
 1. Read every attached resume version.
 2. Build one timeline: every employer, every sub-role with exact MM/YYYY dates, city/country, title, paid or unpaid, and every metric claimed anywhere.
-3. ⏸ List every conflict between versions (dates, numbers, titles, employer names) and ask me to resolve each. The resolved version is the truth from now on.
-4. ⏸ Per role, ask: which numbers can I defend in an interview, and how was each measured? What did I NOT do that a reader might assume (e.g. "no management consulting background", "used Salesforce only as an end user", "never managed direct reports")?
+3. ⏸ Find every conflict between versions (dates, numbers, titles, employer names, claims that only appear in one version) and ask me to resolve each as its own question card. Tell me the total count first (e.g. "19 conflicts, in 5 batches"). The resolved version is the truth from now on.
+4. ⏸ Per role, as question cards, ask: which numbers can I defend in an interview, and how was each measured? What did I NOT do that a reader might assume (e.g. "no management consulting background", "used Salesforce only as an end user", "never managed direct reports")?
 
-## Phase 2 — Search direction ⏸ (one structured questionnaire)
+## Phase 2 — Search direction ⏸ (question cards, in the order below)
 **Targets**
 - **Start from my resumes:** propose 3–6 target titles that my experience supports (with one line of evidence each, e.g. "Product Manager — 2 yrs PM title at X, launched Y"), grouped into 2–4 lanes (e.g. Finance/FP&A · Strategy&Ops · PM · PMM/Marketing). Ask me to keep / drop / add, and to set the lane priority order.
 - Titles I never want. Title words that should be excluded (e.g. Director, Staff, Engineer, Account Executive).
